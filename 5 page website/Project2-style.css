@@ -1,0 +1,91 @@
+h1{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+}
+
+nav{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 4% 2%;
+}
+/*ol stuff*/
+#cardtypes ol{
+	font-family: "Arial Bold",Gadget,sans-serif;
+	list-style-type: none;
+}
+
+ol>li{
+	display: inline-block;
+}
+
+
+/*ul stuff*/
+#menubar ul{
+	list-style-type: none;
+}
+
+ul>li{
+	height:20px;
+	width:140px;
+	/* background-color: blue; */
+	float: left;
+}
+
+#menubar ul>li>a{
+			
+	text-decoration: none;
+}
+		
+		
+article{
+	background-color: lightgray;
+	padding: 2%;
+	margin: 2%;
+	width: 90%;	
+}
+		
+ul>li>a{
+	background-color: blue;
+	padding: 0 2% .5% 2%;
+	color:white;
+	display: block;
+	text-decoration: none;
+			
+}
+		
+figure{
+	width:30%;
+	background-color: /* silver; */ #00ffff; 
+	padding: 2%;
+	/* float:left; */
+}
+
+figure>img{
+	width: 100%;
+			
+}
+/* figure>table{
+	width: 80px;
+			
+} */
+
+figure>figcaption{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	text-align:center;
+}
+		
+table{
+	background-color: darkslategrey;
+}
+
+tbody{
+	background-color: oldlace;
+}
+
+thead{
+	/* background-color: green; */
+	align:;
+}
+
+tfoot{
+	background-color: purple;
+}
